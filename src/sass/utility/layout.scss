@@ -1,0 +1,24 @@
+$spaceAmount: (1,2,3,4,5);
+
+@each $space in $spaceAmount {
+    .m-#{$space} {
+        margin: #{$space}rem;
+    }
+    .my-#{$space} {
+        margin: #{$space}rem 0;
+    }
+    .mx-#{$space} {
+        margin: 0 #{$space}rem;
+    }
+    .p-#{$space} {
+        margin: #{$space}rem;
+    }
+    .py-#{$space} {
+        margin: #{$space}rem 0;
+    }
+    .px-#{$space} {
+        margin: 0 #{$space}rem;
+    }
+
+    
+}
