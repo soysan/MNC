@@ -117,3 +117,15 @@
 .px-5 {
   margin: 0 5rem;
 }
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  background-color: #54a0ff;
+  color: #ff9f43;
+  padding: 30px;
+}
+.btn:hover {
+  background-color: aqua;
+}
+/*# sourceMappingURL=main.css.map */
