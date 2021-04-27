@@ -1,0 +1,30 @@
+{
+  "name": "OSS",
+  "version": "1.0.0",
+  "description": "this is personal oss project. It would turn on a css frame work.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soysan/GreenLeaves.git"
+  },
+  "keywords": [],
+  "author": "Masayuki Yamaguchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soysan/GreenLeaves/issues"
+  },
+  "homepage": "https://github.com/soysan/GreenLeaves#readme",
+  "devDependencies": {
+    "sass": "^1.32.11"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
