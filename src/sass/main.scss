@@ -1,17 +1,5 @@
 @charset "utf-8";
+
 @use "base";
 @use "components";
 @use "utilities";
-@use "colors" as *;
-
-.btn {
-    display: inline-block;
-    text-align: center;
-    background-color: $blue;
-    color: $black;
-    padding: 30px;
-
-    &:hover {
-        background-color: $orange;
-    }
-}

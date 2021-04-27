@@ -1,0 +1,20 @@
+@use "../colors" as *;
+@use "../mixins/button" as *;
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    background-color: $blue;
+    color: $black;
+    padding: 30px;
+
+    &:hover {
+        background-color: $orange;
+    }
+}
+
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        @include button_color($value)
+    }
+}
