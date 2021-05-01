@@ -22,9 +22,8 @@
   },
   "homepage": "https://github.com/soysan/GreenLeaves#readme",
   "devDependencies": {
-    "sass": "^1.32.11"
-  },
-  "dependencies": {
-    "webpack": "^5.36.2"
+    "sass": "^1.32.11",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
   }
 }
