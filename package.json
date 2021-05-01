@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "",
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
     "sass": "^1.32.11"
   },
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
+    "webpack": "^5.36.2"
   }
 }
