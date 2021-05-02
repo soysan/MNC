@@ -1,3 +1,5 @@
 {
-    "dartsass.targetDirectory": "/dist/css",
+    "git.ignoreLimitWarning": true,
+    "dartsass.targetDirectory": "/dist/css/"
 }
+
