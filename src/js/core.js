@@ -4,12 +4,12 @@ import Data from './Data';
  * @param {String|HTMLElement} selector to wrap
  */
 
-const GreenLeaves = selector => {
+function GreenLeaves(selector) {
     VERSION = '0.1.0';
     id = 'GreenLeaves-' + new Date().getTime();
     cache = new Data();
     plugin = {};
-    
+
     if (!(this instanceof GreenLeaves)) {
         return new GreenLeaves(selector);
     }
