@@ -1,6 +1,6 @@
 {
   "name": "mncss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is personal oss project. It would turn on a css frame work.",
   "main": "index.js",
   "directories": {
