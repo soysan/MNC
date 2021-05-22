@@ -1,10 +1,13 @@
 {
-  "name": "MNC",
+  "name": "mncss",
   "version": "1.0.0",
   "description": "this is personal oss project. It would turn on a css frame work.",
   "main": "index.js",
   "directories": {
     "test": "test"
+  },
+  "exports": {
+    ".": "/dist/css/main.css"
   },
   "scripts": {
     "build": "webpack",
