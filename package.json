@@ -1,5 +1,5 @@
 {
-  "name": "greenleaves",
+  "name": "miniCSS",
   "version": "1.0.0",
   "description": "this is personal oss project. It would turn on a css frame work.",
   "main": "index.js",
@@ -19,9 +19,9 @@
   "author": "Masayuki Yamaguchi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/soysan/GreenLeaves/issues"
+    "url": "https://github.com/soysan/miniCSS/issues"
   },
-  "homepage": "https://github.com/soysan/GreenLeaves#readme",
+  "homepage": "https://github.com/soysan/miniCSS#readme",
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.0",
