@@ -48,6 +48,6 @@ module.exports = {
     watchOptions: {
         ignored: /node_modules/
     },
-    // {development,production,none} のちに変える
-    mode: "development"
+    // // {development,production,none} のちに変える
+    // mode: "development"
 };
