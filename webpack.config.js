@@ -49,5 +49,5 @@ module.exports = {
         ignored: /node_modules/
     },
     // // {development,production,none} のちに変える
-    // mode: "development"
+    mode: "development"
 };
